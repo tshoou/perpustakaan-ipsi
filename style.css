@@ -1,0 +1,139 @@
+/* Reset margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* h1 {
+    color: #171717;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+} */
+#table-buku{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    margin-top: 24px;
+    padding: 0 60px;
+}
+
+#navbar{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 0 40px;
+}
+
+h4{
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin: 20px 0;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 4px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#add-cart-button{
+    background-color: #12d322;
+    color: #171717;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+}
+#delete-cart-button{
+    background-color: #d31212;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+}
+/* h2 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+} */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+    font-size: 12px;   
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #2427e6;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    
+}
+
+tr:nth-child(odd) {
+    background-color: #cccdff;
+
+}
+
+.action-links a {
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.action-links a:hover {
+    background-color: #0056b3;
+}
+
+
